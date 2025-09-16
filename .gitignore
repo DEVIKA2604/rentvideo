@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /target
 /*.iml
 /.idea
@@ -9,3 +10,44 @@
 /.gradle
 /out
 *.log
+=======
+# -----------------------------
+# Maven / Java
+# -----------------------------
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+*.log
+
+# -----------------------------
+# Eclipse / IntelliJ / VS Code
+# -----------------------------
+.idea/
+*.ipr
+*.iws
+*.iml
+.vscode/
+*.classpath
+*.project
+
+# -----------------------------
+# Spring Boot / Dev Tools
+# -----------------------------
+spring-boot-devtools.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# -----------------------------
+# OS Files
+# -----------------------------
+.DS_Store
+Thumbs.db
+
+# -----------------------------
+# Others
+# -----------------------------
+*.swp
+*.swo
+>>>>>>> 3061fd774486e8f7e36538a2c780188fd566e09d
