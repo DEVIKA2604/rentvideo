@@ -1,0 +1,39 @@
+# -----------------------------
+# Maven / Java
+# -----------------------------
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+*.log
+
+# -----------------------------
+# Eclipse / IntelliJ / VS Code
+# -----------------------------
+.idea/
+*.ipr
+*.iws
+*.iml
+.vscode/
+*.classpath
+*.project
+
+# -----------------------------
+# Spring Boot / Dev Tools
+# -----------------------------
+spring-boot-devtools.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# -----------------------------
+# OS Files
+# -----------------------------
+.DS_Store
+Thumbs.db
+
+# -----------------------------
+# Others
+# -----------------------------
+*.swp
+*.swo
