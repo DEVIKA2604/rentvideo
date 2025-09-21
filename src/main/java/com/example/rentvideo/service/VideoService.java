@@ -16,12 +16,12 @@ public class VideoService {
         this.videoRepository = videoRepository;
     }
 
-    public Video saveVideo(Video video) {
-        return videoRepository.save(video);
-    }
-
     public List<Video> getAllVideos() {
         return videoRepository.findAll();
+    }
+
+    public Video saveVideo(Video video) {
+        return videoRepository.save(video);
     }
 
     public Optional<Video> getVideoById(Long id) {

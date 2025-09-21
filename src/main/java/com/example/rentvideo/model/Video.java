@@ -1,5 +1,8 @@
 package com.example.rentvideo.model;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import jakarta.persistence.*;
 import lombok.*;
 
@@ -21,4 +24,8 @@ public class Video {
 
     
     private boolean available = true; // default true
+
+    @OneToMany(mappedBy = "video", cascade = CascadeType.ALL, orphanRemoval = true)
+    private List<Rental> rentals = new ArrayList<>();
+
 }
